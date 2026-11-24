@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "api_url": "https://your-backend.example/prod-api",
+  "server_id": "https://your-backend.example/prod-api",
+  "tenant_id": "example-tenant",
+  "factory_id": "1001",
+  "agent_id": "1002",
+  "state_dir": "runtime",
+  "credential_file": "runtime/credential.dpapi",
+  "max_concurrent": 4,
+  "poll_seconds": 3,
+  "heartbeat_seconds": 15,
+  "request_timeout": 15,
+  "submission_timeout": 60,
+  "query_timeout": 5,
+  "download_origins": [],
+  "allow_loopback_http": false,
+  "physical_printing_enabled": false,
+  "printers": [
+    {
+      "printer_id": "2001",
+      "printer_name": "Example Windows Network Queue",
+      "display_name": "原料仓标签机（示例）",
+      "location": "原料仓",
+      "state_dir": "runtime/printers/2001",
+      "binding_version": 1,
+      "queue_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+      "physical_printing_enabled": false
+    }
+  ]
+}

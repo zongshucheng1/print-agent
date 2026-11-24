@@ -1,0 +1,8 @@
+# Allow only the printer client's Python source.
+.idea/
+/.build-venv/
+__pycache__/
+.venv/
+tests/
+packaging/
+output/

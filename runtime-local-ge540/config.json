@@ -1,0 +1,14 @@
+{
+  "api_url": "http://127.0.0.1:8080",
+  "printer_name": "Deli GE540",
+  "state_dir": "D:\\Project\\app\\android_mqtt\\print-agent\\runtime-local-ge540",
+  "credential_file": "D:\\Project\\app\\android_mqtt\\print-agent\\runtime-local-ge540\\credential.dpapi",
+  "poll_seconds": 3.0,
+  "heartbeat_seconds": 15.0,
+  "request_timeout": 15.0,
+  "download_origins": ["https://http://150.139.141.35:9001"],
+  "allow_loopback_http": true,
+  "physical_printing_enabled": true,
+  "paper_width_mm": 80,
+  "paper_height_mm": 80
+}
